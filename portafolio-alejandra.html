@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Alejandra | Portafolio personal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div id="progress"></div><div class="glow" id="glow"></div><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><canvas id="bg"></canvas><button id="totop" aria-label="Volver arriba">&#8593;</button>
+<header class="top">
+<button class="iconbtn menu" id="hamb" aria-expanded="false" aria-controls="drawer" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+<a class="brand" href="#inicio">ALEJANDRA<span>.</span></a>
+<nav class="toplinks"><a href="#inicio">Inicio</a><a href="#sobre">Sobre mí</a><a href="#proyectos">Proyectos</a><a href="#horario">Horario</a><a href="#musica">Música</a><a href="#galeria">Galería</a><a href="#juegos">Juegos</a><a href="#intereses">Intereses</a><a href="#discografias">Discografías</a><a href="#redes">Redes</a><a href="#contacto">Contacto</a></nav>
+<button class="iconbtn" id="theme" aria-label="Cambiar entre tema claro y oscuro"><span class="t-dark"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>Claro</span><span class="t-light"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>Oscuro</span></button>
+</header>
+<aside class="drawer" id="drawer"><a href="#inicio">Inicio</a><a href="#sobre">Sobre mí</a><a href="#proyectos">Proyectos</a><a href="#horario">Horario</a><a href="#musica">Música</a><a href="#galeria">Galería</a><a href="#juegos">Videojuegos</a><a href="#intereses">Intereses</a><a href="#discografias">Discografías</a><a href="#redes">Redes sociales</a><a href="#contacto">Contacto</a></aside><div id="scrim"></div>
+<main>
+<section class="hero" id="inicio">
+<div>
+<span class="eyebrow">Ingeniería de Sistemas</span>
+<h1>Hola, soy <span>Alejandra</span></h1>
+<div class="typed">Soy <b id="typed"></b><i class="caret"></i></div>
+<p>Estudiante apasionada por la tecnología, la música y los videojuegos. Aquí reúno mis proyectos, mis gustos y los desafíos que me ayudan a crecer.</p>
+<div class="tags"><span class="tag">Tecnología</span><span class="tag">Música</span><span class="tag">Videojuegos</span><span class="tag">Voleibol</span></div>
+<a class="btn primary" href="#sobre">Conóceme más</a>
+<div class="stats"><div><b data-count="50">0</b><small>canciones favoritas</small></div><div><b data-count="16">0</b><small>videojuegos</small></div><div><b data-count="4">0</b><small>artistas destacados</small></div></div>
+</div>
+<div>
+<div class="carousel" id="carousel"><div class="stage" id="stage"></div><button class="carbtn prev" id="prev" aria-label="Foto anterior">&#8249;</button><button class="carbtn next" id="next" aria-label="Foto siguiente">&#8250;</button></div>
+<div class="carousel-controls"><label class="btn primary" for="upload">Agregar mis fotos</label><input id="upload" type="file" accept="image/*" multiple hidden><button class="iconbtn" id="auto">Pausar giro</button><span class="hint">Haz clic en una foto para ampliarla</span></div>
+</div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="track"><span>MÚSICA</span><span>VIDEOJUEGOS</span><span>TECNOLOGÍA</span><span>VOLEIBOL</span><span>PROGRAMACIÓN</span><span>BASES DE DATOS</span><span>CREATIVIDAD</span><span>PERSEVERANCIA</span><span>MÚSICA</span><span>VIDEOJUEGOS</span><span>TECNOLOGÍA</span><span>VOLEIBOL</span><span>PROGRAMACIÓN</span><span>BASES DE DATOS</span><span>CREATIVIDAD</span><span>PERSEVERANCIA</span><span>MÚSICA</span><span>VIDEOJUEGOS</span><span>TECNOLOGÍA</span><span>VOLEIBOL</span><span>PROGRAMACIÓN</span><span>BASES DE DATOS</span><span>CREATIVIDAD</span><span>PERSEVERANCIA</span><span>MÚSICA</span><span>VIDEOJUEGOS</span><span>TECNOLOGÍA</span><span>VOLEIBOL</span><span>PROGRAMACIÓN</span><span>BASES DE DATOS</span><span>CREATIVIDAD</span><span>PERSEVERANCIA</span></div></div>
+<section class="quote" id="frase">
+<span class="qeyebrow">Mi lema</span>
+<h2><span class="big">Nunca te rindas</span><span class="small">El que quiere lograr algo, debe <b>perseverar</b>.</span></h2>
+<div class="qline"></div>
+</section>
+<section id="sobre">
+<div class="sectionhead"><span class="num">01</span><h2>Sobre <em>mí</em></h2><p>Un poco de mi historia y de lo que me motiva.</p></div>
+<div class="about">
+<div class="panel"><h3>Formación</h3><p>Soy estudiante de tercer año de Ingeniería de Sistemas. Me gusta crear proyectos, aprender herramientas nuevas y combinar mis intereses creativos con la tecnología.</p></div>
+<div class="panel"><h3>Personalidad</h3><p>Disfruto de la música, los videojuegos y el voleibol. Me considero una persona curiosa, sociable y perseverante, con muchas metas por cumplir.</p></div>
+</div>
+</section>
+
+<section id="proyectos">
+<div class="sectionhead"><span class="num">02</span><h2>Mis <em>proyectos</em></h2><p>Lo que he construido y lo que sigo desarrollando.</p></div>
+<div id="projects"></div>
+</section>
+
+<section id="horario">
+<div class="sectionhead"><span class="num">03</span><h2>Mi <em>horario</em></h2><p>Cuándo estudio y cuándo trabajo durante la semana.</p></div>
+<div class="panel schedpanel">
+<div class="schedtop"><span class="schedstat" id="schedStatus" role="status">Mi semana de universidad y trabajo.</span><button class="btn" type="button" id="schedRefresh">Actualizar horario</button></div>
+<div class="tablewrap"><table id="schedule"></table></div>
+<p class="hint schedlegend"><span class="lg uni"></span>Universidad <span class="lg work"></span>Trabajo <span class="lg today"></span>Día de hoy</p>
+</div>
+</section>
+
+<section id="musica">
+<div class="sectionhead"><span class="num">04</span><h2>Mi <em>música</em></h2><p>Mis 50 canciones favoritas, organizadas por géneros y subcategorías.</p></div>
+<div class="categories" id="categories"></div>
+<!-- Doble selección: género -> artista (listas dependientes) -->
+<div class="panel dual" id="dual"><div class="dualhead"><h3>Doble selección musical</h3><p>Elige un género y después uno de sus artistas.</p></div><div><label for="genreSel">1. Género musical</label><select class="field" id="genreSel"></select></div><div><label for="artistSel">2. Artista</label><select class="field" id="artistSel"></select></div><p class="hint" id="dualInfo"></p></div>
+<!-- Explorar al estilo YouTube Music: 50 filtros que traen canciones de internet -->
+<div class="panel explore" id="explore"><div class="exhead"><div><h3>Explorar como en YouTube Music</h3><p>50 filtros de géneros, estados de ánimo, décadas y regiones. Cada uno trae muchas canciones de internet.</p></div><div class="exbadge" id="exBadge" hidden><span id="exName"></span><button type="button" class="chip" id="exClear">Quitar</button></div></div><div class="exgroups" id="exGroups"></div></div>
+<div class="musiclayout">
+<aside class="panel sidebar">
+<h3>Filtrar música</h3>
+<label for="search">Buscar canción o artista</label><input class="field" id="search" placeholder="Ej. Tiago PZK">
+<label>Artistas destacados</label>
+<div class="artistquick" id="artistquick"><button type="button" class="artistpick selected" data-artist="">Todos</button><button type="button" class="artistpick" data-artist="HUMBE">HUMBE</button><button type="button" class="artistpick" data-artist="Duki">Duki</button><button type="button" class="artistpick" data-artist="Reik">Reik</button><button type="button" class="artistpick" data-artist="Cristian Castro">Cristian Castro</button><button type="button" class="artistpick" data-artist="Chayanne">Chayanne</button><button type="button" class="artistpick" data-artist="Ricardo Arjona">Ricardo Arjona</button></div>
+<label for="artist">Artista</label><select class="field" id="artist"><option value="">Todos los artistas</option></select>
+<label for="sub">Subcategoría</label><select class="field" id="sub"><option value="">Todas las subcategorías</option></select>
+<label>Géneros</label><div class="filters" id="filters"></div>
+<button class="btn primary" id="reset" style="width:100%">Limpiar filtros</button>
+<p class="hint" style="margin-top:12px">Las portadas se buscan en iTunes, MusicBrainz y YouTube; si ninguna responde, se muestra una portada con el título. Al elegir un artista se cargan todas sus canciones.</p>
+</aside>
+<div class="panel songs"><div class="songshead"><h3>Mis canciones favoritas <span class="eq"><i></i><i></i><i></i><i></i><i></i></span></h3><span id="count" class="hint"></span></div><div class="songgrid" id="songgrid"></div><div class="pages" id="pages"></div></div>
+</div>
+</section>
+
+<section id="galeria">
+<div class="sectionhead"><span class="num">05</span><h2>Mi <em>galería</em></h2><p>Sube fotos desde tu computadora y míralas en el carrusel giratorio de arriba.</p></div>
+<div class="panel" style="padding:34px;text-align:center"><p style="color:var(--muted)">Puedes seleccionar varias imágenes a la vez. Se mostrarán en un carrusel 3D y podrás ampliarlas al hacer clic.</p><label class="btn primary" for="upload">Seleccionar fotografías</label><p class="hint">Las fotografías solo se mantienen mientras esta página está abierta. No se suben a ningún servidor.</p></div>
+</section>
+
+<section id="juegos">
+<div class="sectionhead"><span class="num">06</span><h2>Mi universo <em>gamer</em></h2><p>Juegos de celular, estrategia, acción, aventura y mucho más.</p></div>
+<div class="gamehero"><span class="eyebrow">Mi rincón gamer</span><h3>De defender jardines a conquistar arenas.</h3><p>Explora mis videojuegos favoritos y otros títulos para descubrir. Cada juego tiene su ficha, categoría, subcategoría y plataforma.</p><div class="tags"><span class="tag">Plants vs. Zombies</span><span class="tag">Clash Royale</span><span class="tag">Juegos móviles</span><span class="tag">Nuevos descubrimientos</span></div></div>
+<div class="panel" style="padding:24px;margin-bottom:22px">
+<div class="gamefilters"><div><label for="gameSearch">Buscar juego</label><input class="field" id="gameSearch" placeholder="Ej. Plants vs. Zombies"></div><div><label for="gamePlatform">Plataforma</label><select class="field" id="gamePlatform"><option value="">Todas las plataformas</option><option value="Móvil">Celular</option><option value="PC">Computadora</option></select></div><div><label for="gameSub">Subcategoría</label><select class="field" id="gameSub"><option value="">Todas las subcategorías</option></select></div></div>
+<div class="gamechips" id="gameCategories" aria-label="Filtrar por categoría"></div>
+<button class="btn" id="gameReset" type="button">Limpiar filtros</button> <span class="hint" id="gameCount" aria-live="polite"></span>
+</div>
+<div class="gamegrid" id="gameGrid"></div>
+<p class="hint" style="margin-top:18px">Las imágenes se consultan en App Store y Wikipedia cuando hay conexión. Si una portada no se puede descargar, se muestra una portada con el nombre del juego, así que ningún juego queda sin imagen.</p>
+</section>
+<dialog id="gameDialog"><button class="iconbtn" id="gameClose" style="float:right" aria-label="Cerrar">Cerrar</button><div id="gameDetail" style="clear:both"></div></dialog>
+
+<section id="intereses">
+<div class="sectionhead"><span class="num">07</span><h2>Intereses y <em>pasatiempos</em></h2><p>Cada categoría con su propia imagen.</p></div>
+<div class="cards" id="interestcards"></div>
+</section>
+
+<section id="discografias">
+<div class="sectionhead"><span class="num">08</span><h2>Discografías de mis <em>artistas</em></h2><p>HUMBE, Duki, Reik y Cristian Castro: canciones y portadas del catálogo disponible.</p></div>
+<div class="panel" style="padding:24px">
+<div class="filters" id="artistTabs" aria-label="Elegir artista"></div>
+<div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:14px 0"><input class="field" id="artistSongSearch" placeholder="Buscar entre las canciones cargadas..." style="max-width:420px;margin:0"><span class="hint" id="discStatus" role="status">Selecciona un artista</span></div>
+<div class="songgrid" id="discGrid"></div><div class="pages" id="discPages"></div>
+<p class="hint" style="margin-top:16px">Las canciones se consultan en iTunes y Apple Music, y las portadas se mejoran con YouTube cuando está disponible. El catálogo puede variar según el país. Pulsa una canción para buscarla en YouTube Music.</p>
+</div>
+</section>
+
+<section id="redes">
+<div class="sectionhead"><span class="num">09</span><h2>Mis redes <em>sociales</em></h2><p>Encuéntrame en mis perfiles y sígueme para ver más de lo que me gusta.</p></div>
+<div class="socialgrid reveal" id="socialGrid"></div>
+</section>
+
+<section id="contacto">
+<div class="sectionhead"><span class="num">10</span><h2>Hablemos</h2><p>Formulario de mi perfil personal.</p></div>
+<div class="panel formwrap">
+<div><h3>Déjame un mensaje</h3><p>¿Te gusta la misma música? ¿Compartimos videojuegos o intereses tecnológicos? Cuéntame.</p><p class="hint">Este formulario es una demostración: valida los datos, pero no los envía a un correo.</p></div>
+<form id="contact" novalidate><div class="formgrid">
+<div><label for="name">Nombre completo *</label><input class="field" id="name" maxlength="60" autocomplete="name" placeholder="Nombre y apellido"><small class="error" id="ename"></small></div>
+<div><label for="email">Correo electrónico *</label><input class="field" id="email" inputmode="email" autocomplete="email" placeholder="correo@ejemplo.com"><small class="error" id="eemail"></small></div>
+<div><label for="phone">Teléfono (opcional)</label><input class="field" id="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="Ej. +1 555 123 4567"><small class="error" id="ephone"></small></div>
+<div><label for="date">Fecha preferida de contacto (opcional)</label><input class="field" id="date" type="date"><small class="error" id="edate"></small></div>
+<div class="wide"><label for="topic">Asunto *</label><select class="field" id="topic"><option value="">Selecciona un asunto</option><option>Música</option><option>Videojuegos</option><option>Programación</option><option>Consultas</option><option>Otros</option></select><small class="error" id="etopic"></small></div>
+<div class="wide"><label for="message">Mensaje * (10 a 300 caracteres)</label><textarea class="field" id="message" maxlength="300" placeholder="Escribe tu mensaje aquí..."></textarea><small class="error" id="emessage"></small><span id="counter" class="hint">0/300</span></div>
+<div class="wide"><label class="checkrow"><input type="checkbox" id="accept"><span>Acepto que mis datos se usen solo para atender este contacto. *</span></label><small class="error" id="eaccept"></small></div>
+</div><div class="formbtns"><button class="btn primary" type="submit">Validar mensaje</button><button class="btn" type="button" id="cclear">Limpiar formulario</button></div><p id="result" role="status"></p></form>
+</div>
+</section>
+</main>
+<footer class="footer"><div class="footsocial" id="footSocial"></div><b>ALEJANDRA</b> &middot; Mi mundo personal &middot; Hecho con HTML, CSS y JavaScript</footer>
+<dialog id="zoom" style="padding:15px;max-width:95vw"><button id="closezoom" class="iconbtn" style="float:right">Cerrar</button><img id="bigphoto" alt="Foto ampliada" style="max-width:85vw;max-height:80vh;object-fit:contain;display:block;clear:both"></dialog>
+<script src="script.js" defer></script>
+</body>
+</html>
